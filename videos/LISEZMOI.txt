@@ -1,0 +1,5 @@
+Deposez ici les videos des personas (MP4) :
+- persona-parent.mp4
+- persona-retraite.mp4
+- persona-couple.mp4
+Elles remplacent automatiquement les emplacements sur la page.
