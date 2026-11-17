@@ -273,7 +273,7 @@
   /* Vidéos : déposer videos/persona-parent.mp4, videos/persona-retraite.mp4, videos/persona-couple.mp4 */
   document.querySelectorAll('.video-slot').forEach(slot => {
     const src = `videos/${slot.dataset.video}.mp4`;
-    fetch(src, { method: 'HEAD' }).then(r => {
+    fetch(src, { method: 'HEAD', cache: 'no-store' }).then(r => {
       if (!r.ok || !(r.headers.get('content-type') || '').startsWith('video')) return;
       const v = document.createElement('video');
       v.src = src; v.controls = true; v.playsInline = true; v.preload = 'metadata';
