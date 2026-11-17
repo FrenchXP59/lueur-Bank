@@ -277,6 +277,7 @@
       if (!r.ok || !(r.headers.get('content-type') || '').startsWith('video')) return;
       const v = document.createElement('video');
       v.src = src; v.controls = true; v.playsInline = true; v.preload = 'metadata';
+      if (slot.dataset.poster) v.poster = slot.dataset.poster;
       slot.querySelector('.play').remove(); slot.querySelector('.video-tag').remove();
       slot.appendChild(v);
     }).catch(() => {});
