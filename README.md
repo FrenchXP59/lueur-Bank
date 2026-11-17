@@ -5,7 +5,7 @@ Landing page d'une **assurance obsèques fictive**, réalisée pour un cours de 
 ## Contenu
 - `index.html`, `style.css`, `main.js` : la page (HTML/CSS/JS sans dépendance)
 - `merci.html` : page de confirmation du formulaire (Netlify Forms, formulaire `rappel`)
-- `qr.png` : QR code vers https://lueur-bank.netlify.app
+- `qr.png` : QR code vers https://lueur-bank1.netlify.app
 - `videos/` : déposer `persona-parent.mp4`, `persona-retraite.mp4`, `persona-couple.mp4` pour remplacer les emplacements vidéo
 
 ## Pendant l'oral
